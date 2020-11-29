@@ -19,7 +19,7 @@ var (
 	NumGroup			= 3
 )
 var w sync.WaitGroup
-func main() {
+func Run() {
 	fi, err := os.Open(urlFilePath)
 	if err != nil {
 		fmt.Printf("Error:%s\n", err)
